@@ -1,0 +1,44 @@
+h2 {
+    margin: 50px 0 25px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.meta {
+    color: #8d8d8d;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.excerpt {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+}
+
+.card article {
+    transition: all 0.5 ease-in-out;
+    transform: initial;
+}
+
+.card:hover article {
+    transform: scale(1.05);
+}

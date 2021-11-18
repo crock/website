@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "crockerbytes",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "2.0.0",
+  "author": "Alex Crocker <hello@crock.dev>",
   "dependencies": {
     "gatsby": "^3.13.0",
     "gatsby-plugin-image": "^1.13.0",
@@ -11,7 +10,10 @@
     "gatsby-plugin-offline": "^4.13.0",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-remark-images": "^5.10.0",
     "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-source-rss-feed": "^1.2.2",
+    "gatsby-transformer-remark": "^4.10.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -24,21 +26,21 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "GPL-3.0-only",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "yarn dev",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/crock/website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/crock/website/issues"
   }
 }
